@@ -1,0 +1,101 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="dUTRKlUeovP-ZFxXA_XV">
+    <mxGraphModel dx="1022" dy="530" grid="1" gridSize="11" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="1nGwimPTxWOab-s2jZ9L-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6a00ff;strokeColor=#3700CC;fontStyle=1;fontColor=#ffffff;gradientColor=default;" value="Capturar dados dos sensores" vertex="1">
+          <mxGeometry height="60" width="130" x="130" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="1nGwimPTxWOab-s2jZ9L-2" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=#FF9933;" value="&lt;b&gt;Aproximação&amp;nbsp;&lt;br&gt;(Pessoa)&lt;/b&gt;">
+          <mxGeometry height="50" relative="1" width="50" y="30" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint y="240" as="sourcePoint" />
+            <mxPoint x="120" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1nGwimPTxWOab-s2jZ9L-3" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=#00CCCC;endWidth=23;endSize=6;fontColor=#A680B8;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="143" y="363" as="sourcePoint" />
+            <mxPoint x="143" y="297" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1nGwimPTxWOab-s2jZ9L-7" connectable="0" parent="1nGwimPTxWOab-s2jZ9L-3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;b&gt;Obstáculo&lt;br&gt;(Porta Automática&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;)&lt;/span&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.0333" y="2" as="geometry">
+            <mxPoint x="-75" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1nGwimPTxWOab-s2jZ9L-8" parent="1" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.flash;fillColor=#FF0000;strokeColor=#b85450;gradientColor=default;fontStyle=1;fontColor=#FF0000;labelBackgroundColor=#FFFFFF;textShadow=1;" value="Falha (Sinal Interrompido)" vertex="1">
+          <mxGeometry height="60" width="40" x="175" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="1nGwimPTxWOab-s2jZ9L-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;gradientColor=default;" value="" vertex="1">
+          <mxGeometry height="60" width="120" x="294" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="1nGwimPTxWOab-s2jZ9L-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;gradientColor=default;" value="" vertex="1">
+          <mxGeometry height="60" width="120" x="448" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="1nGwimPTxWOab-s2jZ9L-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;gradientColor=default;" value="" vertex="1">
+          <mxGeometry height="60" width="120" x="590" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="1nGwimPTxWOab-s2jZ9L-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=#FFFFFF;fontStyle=1" value="Processamento de regras do acionamento" vertex="1">
+          <mxGeometry height="50" width="90" x="309" y="235" as="geometry" />
+        </mxCell>
+        <mxCell id="1nGwimPTxWOab-s2jZ9L-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;b&gt;Gerar comandos de Movimento&lt;/b&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="50" width="80" x="468" y="235" as="geometry" />
+        </mxCell>
+        <mxCell id="1nGwimPTxWOab-s2jZ9L-14" parent="1" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;rounded=0;fontColor=#FFFFFF;" value="&lt;b&gt;Execução do Movimento&lt;/b&gt;" vertex="1">
+          <mxGeometry height="50" width="90" x="610" y="235" as="geometry" />
+        </mxCell>
+        <mxCell id="1nGwimPTxWOab-s2jZ9L-19" edge="1" parent="1" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=10;startSize=10;jumpStyle=none;flowAnimation=1;shadow=1;fontStyle=1" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="662" y="368.5" />
+              <mxPoint x="354" y="368.5" />
+            </Array>
+            <mxPoint x="662" y="291.5" as="sourcePoint" />
+            <mxPoint x="354" y="291.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1nGwimPTxWOab-s2jZ9L-21" parent="1" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;fillColor=#FF8000;strokeColor=#82b366;opacity=50;" value="" vertex="1">
+          <mxGeometry height="70" width="130" x="715" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="1nGwimPTxWOab-s2jZ9L-23" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=3" value="Movimento com Sucesso&amp;nbsp;&lt;div&gt;&amp;nbsp;Abrir e Fechar&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="90" x="726" y="155" as="geometry" />
+        </mxCell>
+        <mxCell id="1nGwimPTxWOab-s2jZ9L-24" parent="1" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;rounded=0;glass=0;shadow=0;fillColor=#647687;fontColor=#FFFFFF;strokeColor=#314354;fontStyle=1" value="CONFIRMAÇÃO/INTERRUPÇÃO" vertex="1">
+          <mxGeometry height="30" width="187" x="423" y="385" as="geometry" />
+        </mxCell>
+        <mxCell id="1nGwimPTxWOab-s2jZ9L-26" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" value="&lt;b style=&quot;color: rgb(0, 0, 0);&quot;&gt;FRONTEIRA DO SISTEMA:&lt;/b&gt; &lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;b style=&quot;&quot;&gt;Compreende os sensores de presença, módulo de decisão lógica e atuador do motor&lt;/b&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="44" width="419" x="187" y="11" as="geometry" />
+        </mxCell>
+        <mxCell id="1nGwimPTxWOab-s2jZ9L-28" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" value="&lt;b style=&quot;color: rgb(102, 102, 255);&quot;&gt;OBJETIVO:&lt;/b&gt; &lt;b&gt;Garantir a abertura e fechamento da porta de forma automatizada, mantendo monitoramento sobre a segurança dos pedestres&lt;/b&gt;" vertex="1">
+          <mxGeometry height="44" width="365" x="225" y="66" as="geometry" />
+        </mxCell>
+        <mxCell id="1nGwimPTxWOab-s2jZ9L-29" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;Perturbação&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="33" y="341" as="geometry" />
+        </mxCell>
+        <mxCell id="1nGwimPTxWOab-s2jZ9L-34" parent="1" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.uTurnArrow;dy=11;arrowHead=43;dx2=25;rotation=90;fillColor=#FF9933;" value="" vertex="1">
+          <mxGeometry height="143" width="80" x="228.43" y="103.35" as="geometry" />
+        </mxCell>
+        <mxCell id="1nGwimPTxWOab-s2jZ9L-36" parent="1" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.uTurnArrow;dy=11;arrowHead=43;dx2=25;rotation=90;fillColor=#FF9933;" value="" vertex="1">
+          <mxGeometry height="143" width="80" x="405.5" y="103.35" as="geometry" />
+        </mxCell>
+        <mxCell id="1nGwimPTxWOab-s2jZ9L-37" parent="1" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.uTurnArrow;dy=11;arrowHead=43;dx2=25;rotation=90;fillColor=#FF9933;" value="" vertex="1">
+          <mxGeometry height="143" width="80" x="570.5" y="103.35" as="geometry" />
+        </mxCell>
+        <mxCell id="1nGwimPTxWOab-s2jZ9L-39" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;Sinal de Detecção&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="234" y="165" as="geometry" />
+        </mxCell>
+        <mxCell id="1nGwimPTxWOab-s2jZ9L-40" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;Decisão da Ação&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="414" y="165" as="geometry" />
+        </mxCell>
+        <mxCell id="1nGwimPTxWOab-s2jZ9L-41" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;Comando do Motor&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="580.5" y="176" as="geometry" />
+        </mxCell>
+        <mxCell id="1nGwimPTxWOab-s2jZ9L-42" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=center;gradientColor=#FFFFFF;fillColor=#CCCCCC;" value="&lt;b style=&quot;color: rgb(0, 0, 255);&quot;&gt;Comportamento Seguro:&lt;/b&gt; Se a falha for detectada ou ocorrer uma emergência, acionar o &lt;b style=&quot;color: rgb(0, 255, 0);&quot;&gt;Estado Seguro&lt;/b&gt; no qual mantém a porta aberta para uma possível evacuação do local." vertex="1">
+          <mxGeometry height="88" width="331.5" x="225" y="440" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
