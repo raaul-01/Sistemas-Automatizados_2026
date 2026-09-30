@@ -1,0 +1,5 @@
+Passo,Marcação ativa,Entradas / Eventos,Transição,Nova marcação
+1,E0 (Aguardando Peça),Peça colocada na esteira,PRESENÇA_PEÇA = 1,E1
+2,E1 (Transporte / Leitura),Sensor lê o tipo de peça (Tipo 1),PEÇA_1 = 1,ATUADOR_B
+3,ATUADOR_B,Atuador B avança,FC_EXTENDIDO_B = 1,RETORNA_B
+4,RETORNA_B,Atuador B regressa,FC_RECUADO_B = 1,E0
