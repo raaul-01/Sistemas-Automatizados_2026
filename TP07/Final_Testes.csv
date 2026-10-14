@@ -1,0 +1,13 @@
+id,parte,acao,esperado,obtido,situacao
+T01,TON,START mantido ~2 s e solto,Q=0 e MOTOR_DELAY=0,"IN foi a True e voltou a False ao soltar | ET=0 | Q=0 | MOTOR_DELAY=0",OK
+T02,TON,START mantido por 3 s ou mais,Q=1 e MOTOR_DELAY=1,"ET=3000 | Q=1 | MOTOR_DELAY=1",OK
+T03,TON,STOP_OK=0 durante ET,ET zera e saida=0,"IN=0 | ET=0 | Q=0 | MOTOR_DELAY=0",OK
+T04,TON,EMG_OK=0 com saida ligada,saida=0,"IN=0 | ET=0 | Q=0 | MOTOR_DELAY=0",OK
+T05,TON,Liberar falha sem START,saida permanece 0,"MOTOR_DELAY permaneceu 0",OK
+P01,PISCA,Observar LAMPADA por 6 s,"0 1 0 1 0 1 (1 s por fase)","LAMPADA alternou a cada 1 s como esperado",OK
+C01,CTU,5 pulsos em S_PECA,CV=5 e LOTE_OK=1,"CV=1 | 2 | 3 | 4 | 5 e LOTE_OK=1 na quinta peca",OK
+C02,CTU,S_PECA mantido em 1 por ~5 s,CV nao sobe alem de 1,"CV permaneceu em 1",OK
+R1,Reset,RESET_LOTE=1 com CV=0,CV=0 e LOTE_OK=0,"CV=0 e LOTE_OK=0",OK
+R2,Reset,2 pecas e RESET_LOTE=1,CV=0,"CV=2 antes | CV=0 depois",OK
+R3,Reset,RESET_LOTE=1 com CV=7 e LOTE_OK=1,CV=0 e LOTE_OK=0,"CV=0 e LOTE_OK=0",OK
+R4,Reset,RESET_LOTE=1 mantido e pulso em S_PECA,CV permanece 0 (reset com prioridade),"CV permaneceu em 0",OK
